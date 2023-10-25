@@ -2,6 +2,9 @@
 
 Programme en lien avec le jeu de plateau "Les Aventuriers du Rail" édition Autour du Monde (AdM).
 
+![plateau](assets/les_aventuriers_du_rail_autour_du_monde_0010.jpeg)
+
+
 Ce programme permet plusieurs choses :
 
 - Connaître toutes les cartes destinations du jeu (départ, arrivée, points)
@@ -20,6 +23,7 @@ Ce programme permet plusieurs choses :
  - Mauvaise gestion des itinéraires dans le plus court chemin
  - Ne prend pas en compte les cartes et le nombre de pions du joueur
  - Modifications textuelles à faire
+ - Ports
 
 ## Explication des fichiers
 
