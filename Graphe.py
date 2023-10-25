@@ -1,6 +1,5 @@
 from Villes import Ville
 from Aretes import Arete, PassageDifficile
-from time import sleep
 
 class Graphe:
 
@@ -258,7 +257,3 @@ class Graphe:
             if e.get_depart().get_nom() == arrivee and e.get_arrivee().get_nom() == depart and e not in chemins_uti_list:
                 return e
         return 1
-
-
-#g = Graphe()
-#print(g.poids("Moskva", "Hamburg"))
