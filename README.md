@@ -20,3 +20,13 @@ Ce programme permet plusieurs choses :
  - Mauvaise gestion des itinéraires dans le plus court chemin
  - Ne prend pas en compte les cartes et le nombre de pions du joueur
  - Modifications textuelles à faire
+
+## Explication des fichiers
+
+- ```Aretes.py``` : contient la classe ```Arete``` ainsi que la classe ```PassageDifficile``` (cette dernère hérite d'```Arete```)
+- ```Destinations.py``` : contient la classe ```Destination``` ainsi que la classe ```Itineraire``` (cette dernière hérite de ```Destination```
+- ```Graphe.py``` : contient la classe ```Graphe```. Cette classe définit toutes les villes et toutes les arêtes (chemins entre les villes) du plateau.
+- ```main.py``` : contient le programme principal. Doit être lancé pour utiliser l'application
+- ```Map.py``` : contient le plateau (donc un objet de la classe ```Graphe```) ainsi que toutes les cartes destinations
+- ```Villes.py``` : contient la classe ```Ville```
+
